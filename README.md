@@ -29,7 +29,7 @@ optional arguments:
 #### Examples
 
 Original image:\
-[[https://github.com/her/dsample/blob/master/img/lotus.png|alt=lotus.png]]
+![lotus.png](https://github.com/her/dsample/blob/master/img/lotus.png)
 
 ```
 python dsample.py lotus.png -sgd 4 -o output.png
@@ -37,7 +37,7 @@ python dsample.py lotus.png -sgd 4 -o output.png
 Downsamples lotus.png by a factor of four, applies a guassian mask and keeps
 the original image dimensions
 
-[[https://github.com/her/dsample/blob/master/img/ds_4x_s_mask.png|alt=ds_4x_s_mask.png]]
+![ds_4x_s_mask.png](https://github.com/her/dsample/blob/master/img/ds_4x_s_mask.png)
 
 ```
 python dsample.py lotus.png -sd 4 -o output.png
@@ -45,18 +45,18 @@ python dsample.py lotus.png -sd 4 -o output.png
 Downsamples lotus.png by a factor of four and keeps
 the original image dimensions
 
-[[https://github.com/her/dsample/blob/master/img/ds_4x_s.png|alt=ds_4x_s.png]]
+![ds_4x_s.png](https://github.com/her/dsample/blob/master/img/ds_4x_s.png)
 
 ```
 python dsample.py lotus.png -d 4 -o output.png
 ```
 Downsamples lotus.png by a factor of 4
 
-[[https://github.com/her/dsample/blob/master/img/ds_4x.png|alt=ds_4x.png]]
+![ds_4x.png](https://github.com/her/dsample/blob/master/img/ds_4x.png)
 
 ```
 python dsample.py lotus.png -gd 4 -o output.png
 ```
 Downsamples lotus.png by a factor of four and applies a guassian mask
 
-[[https://github.com/her/dsample/blob/master/img/ds_4x_mask.png|alt=ds_4x_mask.png]]
+![ds_4x_mask.png](https://github.com/her/dsample/blob/master/img/ds_4x_mask.png)
