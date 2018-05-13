@@ -1,4 +1,4 @@
-### dsample 🖼
+### dsample 🌌
 
 #### Install
 Requires Python 3\
