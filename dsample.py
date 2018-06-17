@@ -61,6 +61,8 @@ class DSample:
             '2': (0.5, 0.5),
             '3': (0.33, 0.33),
             '4': (0.25, 0.25),
+            '5': (0.2, 0.2),
+            '6': (0.12, 0.12),
         }
         self.scale_factor = scale.get(self.downsample, None)
 
@@ -103,7 +105,7 @@ if __name__ == "__main__":
         "-d",
         "--downsample",
         metavar='n',
-        help="downsample by a factor of 2, 3, or 4"
+        help="downsample by a factor of 2, 3, 4, 5, 6"
     )
 
     parser.add_argument(

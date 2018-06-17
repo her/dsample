@@ -17,7 +17,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -o OUTPUT, --output OUTPUT
                         output filename for downsampled image
-  -d n, --downsample n  downsample by a factor of 2, 3, or 4
+  -d n, --downsample n  downsample by a factor of 2, 3, 4, 5, 6
   -g, --gaussian-kernel
                         apply a gaussian kernel, effective in reducing
                         gaussian noise
